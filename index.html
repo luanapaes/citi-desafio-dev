@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,37 +10,23 @@
 </head>
 
 <body>
-    <header>
-        <div class="profile">
-            <img src="./assets/profile.jpeg" alt="foto de perfil">
+    <header class="flex">
+        <div class="profile-info">
+            <h1>Olá, eu me chamo Luana Paes :)</h1>
+            <p class="p-width">
+                Sou paixonada por tecnologia e pelo
+                desenvolvimento de soluções digitais enquanto aprendo.
+            </p>
         </div>
 
-        <ul>
-            <li class="myname">Luana Paes</li>
-            <li>Recife-PE</li>
+        <div class="profile-image flex">
+            <img src="./assets/profile.jpeg" alt="">
+        </div>
 
-            <div class="links">
-                <li>
-                    <a href="mailto:luanapaes.dev@gmail.com" target="_blank">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.linkedin.com/in/luanapaesf" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/luanapaes" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </div>
-        </ul>
     </header>
 
     <main>
-        <h1>Sobre Mim</h1>
+        <h1>Conheça um pouco mais sobre mim</h1>
         <p>
             Sou estudante do curso de Gestão da Informação (2025.1) e apaixonada pela área de tecnologia. Tenho formação
             em Análise e Desenvolvimento de Sistemas, onde tive a oportunidade de aprofundar meus conhecimentos e
@@ -49,13 +35,33 @@
             aberta a novas descobertas, e temas como inteligência artificial despertam muito o meu interesse.
         </p>
 
-        <h2>Meus Hobbies</h2>
-        <ul>
-            <li>🌊 Ir à praia</li>
-            <li>💻 Estudar assuntos de tecnologia</li>
-            <li>🍳 Cozinhar</li>
-            <li>🧵 Costurar</li>
+        <ul class="links">
+            <li>
+                <a href="mailto:luanapaes.dev@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/in/luanapaesf" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/luanapaes" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
         </ul>
+
+        <div class="hobbies-container">
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Estudar assuntos de tecnologia</li>
+                <li>Costurar</li>
+                <li>Ler livros de ficção e romance</li>
+                <li>Gosto de jogar jogos de mesa e cartas em grupo.</li>
+            </ul>
+        </div>
 
         <h3>Projetos Relevantes</h3>
         <div class="projetos">
@@ -63,11 +69,11 @@
                 <p class="project-title">Projeto Elas</p>
                 <p class="description">
                     Projeto de extensão voltado à saúde mental de mulheres chefes de família. Alunas do curso de
-                    Psicologia conduziram palestras sobre temas como identificação de abusos psicológicos e canais 
-                    de denúncia. Pela parte técnica, desenvolvemos um formulário para agendamento das participantes, 
+                    Psicologia conduziram palestras sobre temas como identificação de abusos psicológicos e canais
+                    de denúncia. Pela parte técnica, desenvolvemos um formulário para agendamento das participantes,
                     permitindo também o compartilhamento de histórias de forma segura e acolhedora.
                 </p>
-
+        
                 <span>Tags</span>
                 <ul class="tags">
                     <li>Saúde mental</li>
@@ -76,15 +82,17 @@
                     <li>Software</li>
                 </ul>
             </div>
-            
+        
             <div>
                 <p class="project-title margin">Projeto ZapShop</p>
                 <p class="description">
-                    Aplicação desenvolvida para facilitar a rotina de revendedoras de produtos. O cliente escolhe seus itens em um catálogo
-                    digital e envia o pedido completo para o WhatsApp da vendedora, com todas as informações organizadas: produtos,
+                    Aplicação desenvolvida para facilitar a rotina de revendedoras de produtos. O cliente escolhe seus itens em
+                    um catálogo
+                    digital e envia o pedido completo para o WhatsApp da vendedora, com todas as informações organizadas:
+                    produtos,
                     quantidades, forma de pagamento e modo de entrega.
                 </p>
-
+        
                 <span>Tecnologias utilizadas</span>
                 <ul class="tags">
                     <li>Angular</li>
@@ -96,6 +104,7 @@
                 </ul>
             </div>
         </div>
+
     </main>
 
     <footer>
